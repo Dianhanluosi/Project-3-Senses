@@ -54,11 +54,10 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.package-manager-ui": {
-      "version": "2.0.7",
+      "version": "2.2.0",
       "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
+      "source": "builtin",
+      "dependencies": {}
     },
     "com.unity.purchasing": {
       "version": "2.0.3",
@@ -101,7 +100,7 @@
     },
     "com.unity.ugui": {
       "version": "1.0.0",
-      "depth": 0,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.modules.ui": "1.0.0",
