@@ -134,7 +134,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c261a166704b741a398f48ccf44ae125,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c261a166704b741a398f48ccf44ae125,
         type: 3}
@@ -1917,7 +1917,7 @@ Transform:
   - {fileID: 431667075}
   - {fileID: 1619450270}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &372191706
 GameObject:
@@ -4151,7 +4151,7 @@ Transform:
   - {fileID: 1730564207}
   - {fileID: 1153367304}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &746903339
 GameObject:
@@ -4458,7 +4458,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: c261a166704b741a398f48ccf44ae125,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c261a166704b741a398f48ccf44ae125,
         type: 3}
@@ -8980,9 +8980,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f738b0b5a14ea98478df3c2072208ab7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 1947918504}
-  portal: {fileID: 1460686082}
-  otherPortal: {fileID: 2057980741}
 --- !u!124 &1476296202
 Behaviour:
   m_ObjectHideFlags: 0
@@ -11018,9 +11015,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f738b0b5a14ea98478df3c2072208ab7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 1947918504}
-  portal: {fileID: 2057980741}
-  otherPortal: {fileID: 1460686082}
 --- !u!114 &1959957705
 MonoBehaviour:
   m_ObjectHideFlags: 0
