@@ -3047,6 +3047,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f738b0b5a14ea98478df3c2072208ab7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerCamera: {fileID: 1947918504}
+  portal: {fileID: 147727494}
+  otherPortal: {fileID: 667924455}
 --- !u!114 &309690567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16558,6 +16561,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f738b0b5a14ea98478df3c2072208ab7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerCamera: {fileID: 1947918504}
+  portal: {fileID: 667924455}
+  otherPortal: {fileID: 147727494}
 --- !u!114 &1453454525
 MonoBehaviour:
   m_ObjectHideFlags: 0
