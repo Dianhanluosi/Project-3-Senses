@@ -7201,6 +7201,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f738b0b5a14ea98478df3c2072208ab7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerCamera: {fileID: 1947918504}
+  portal: {fileID: 147727494}
+  otherPortal: {fileID: 667924455}
 --- !u!114 &309690567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26088,7 +26091,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1107699164}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
   m_Name: 
@@ -27501,17 +27504,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b0991216547519a428bc29ef915c8dcf,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.3892577
+      value: 1.744198
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b0991216547519a428bc29ef915c8dcf,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.1513
+      value: 2.7705827
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b0991216547519a428bc29ef915c8dcf,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.113124
+      value: -6.08
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b0991216547519a428bc29ef915c8dcf,
         type: 3}
@@ -27521,7 +27524,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b0991216547519a428bc29ef915c8dcf,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.6750042
+      value: 2.68
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b0991216547519a428bc29ef915c8dcf,
         type: 3}
@@ -33418,6 +33421,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f738b0b5a14ea98478df3c2072208ab7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerCamera: {fileID: 1947918504}
+  portal: {fileID: 667924455}
+  otherPortal: {fileID: 147727494}
 --- !u!114 &1453454525
 MonoBehaviour:
   m_ObjectHideFlags: 0
