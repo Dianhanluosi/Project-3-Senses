@@ -6,17 +6,20 @@ public class pickUpSound : MonoBehaviour
 {
     public AudioSource notification;
     public bool played = false;
+    public GameObject musicSwitcher;
+    private MusicSwitchMazeToCat MSMTC;
 
     // Start is called before the first frame update
     void Start()
     {
         notification = GetComponent<AudioSource>();
+        MSMTC = musicSwitcher.GetComponent<MusicSwitchMazeToCat>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log(MSMTC.mad);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -27,6 +30,8 @@ public class pickUpSound : MonoBehaviour
             {
                 notification.Play();
                 played = true;
+                MSMTC.mad = false;
+
             }
         }
     }
