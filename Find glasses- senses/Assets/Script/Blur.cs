@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GlassesPickedUp : MonoBehaviour
+public class Blur : MonoBehaviour
 {
-
-
+    public GameObject post;
     // Start is called before the first frame update
     void Start()
     {
+        
     }
 
     // Update is called once per frame
@@ -17,13 +17,11 @@ public class GlassesPickedUp : MonoBehaviour
         
     }
 
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            Destroy(gameObject);
+            post.SetActive(false);
         }
     }
-
 }

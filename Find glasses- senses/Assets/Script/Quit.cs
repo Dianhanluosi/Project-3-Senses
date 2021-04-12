@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GlassesPickedUp : MonoBehaviour
+public class Quit : MonoBehaviour
 {
-
-
     // Start is called before the first frame update
     void Start()
     {
+        
     }
 
     // Update is called once per frame
@@ -17,13 +16,8 @@ public class GlassesPickedUp : MonoBehaviour
         
     }
 
-
-    private void OnTriggerEnter(Collider other)
+    public void quitGame()
     {
-        if (other.CompareTag("Player"))
-        {
-            Destroy(gameObject);
-        }
+        Application.Quit();
     }
-
 }
