@@ -5,6 +5,8 @@ using UnityEngine;
 public class Blur : MonoBehaviour
 {
     public GameObject post;
+
+
     // Start is called before the first frame update
     void Start()
     {
