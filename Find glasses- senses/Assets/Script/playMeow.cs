@@ -43,6 +43,6 @@ public class playMeow : MonoBehaviour
 
     void endScene()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 }
