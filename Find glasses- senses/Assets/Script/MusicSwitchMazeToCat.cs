@@ -8,14 +8,23 @@ public class MusicSwitchMazeToCat : MonoBehaviour
     //public AudioSource fun;
     //public AudioSource cat;
 
-    public bool mad = false;
-    public GameObject player;
-    private SeeClear seeClear;
+
+    public GameObject songM;
+    public GameObject catM;
+
+    AudioSource main;
+    AudioSource cat;
+
+    public bool catt = false;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        seeClear = player.GetComponent<SeeClear>();
+
+        main = songM.GetComponent<AudioSource>();
+        cat = catM.GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
@@ -26,21 +35,17 @@ public class MusicSwitchMazeToCat : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag ("Player"))
+        if (other.CompareTag("Player"))
         {
-            if (!seeClear.seeC)
+            if (!catt)
             {
-                if (!mad)
-                {
-                    mad = true;
-                }
-                else
-                {
-
-                }
+                main.Pause();
+                cat.Play();
+                catt = true;
             }
-            else { }
         }
+
+
     }
 
 }
