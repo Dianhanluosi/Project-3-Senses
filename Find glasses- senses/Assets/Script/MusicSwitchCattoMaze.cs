@@ -39,7 +39,7 @@ public class MusicSwitchCattoMaze : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (matc.catt = true)
+            if (matc.catt == true)
             {
                 if (!main.isPlaying)
                 {

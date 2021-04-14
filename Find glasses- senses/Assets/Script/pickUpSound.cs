@@ -7,10 +7,19 @@ public class pickUpSound : MonoBehaviour
     public AudioSource notification;
     public bool played = false;
 
+    public GameObject songmanager;
+    public GameObject madcatroom;
+
+    AudioSource SMN;
+    AudioSource MCR;
+
+
     // Start is called before the first frame update
     void Start()
     {
         notification = GetComponent<AudioSource>();
+        SMN = songmanager.GetComponent<AudioSource>();
+        MCR = madcatroom.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -27,6 +36,14 @@ public class pickUpSound : MonoBehaviour
                 notification.Play();
                 played = true;
 
+            }
+            if (MCR.isPlaying)
+            {
+                MCR.Pause();
+            }
+            if (!SMN.isPlaying)
+            {
+                SMN.Play();
             }
         }
     }
